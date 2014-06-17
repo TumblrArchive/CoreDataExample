@@ -1,6 +1,6 @@
 # Core Data Example
 
-This is a sample project whose purpose is to gather feedback on the best way to use Core Data in a multithreaded environment. Here's a [blog post]() explaining the motivation behind this repository:
+This is a sample project whose purpose is to gather feedback on the best way to use Core Data in a multithreaded environment. Here's a [blog post](http://bryan.io/post/89082476661/core-data-sample-project) explaining the motivation:
 
 > We’ve been using Core Data for persistence in [Tumblr for iOS](https://itunes.apple.com/us/app/tumblr/id305343404) for years now, but are always interested in re-evaluating our approach to make sure that we’re leveraging the SDK as effectively as possible.
 
