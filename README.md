@@ -100,6 +100,8 @@ How can this be mitigated, other than just optimizing all of our fetches and sav
 * [“Smaller saves during the import, more intelligent fetching for your update/insert question. Those are the normal first pass items.”](https://twitter.com/mzarra/status/466304487859048448)
 * [“Doing a count instead of a fetch, fetching ids only, predicate performance, batch size, things like that can make a huge difference.”](https://twitter.com/mzarra/status/466316613227409408)
 
+Marcus provides a *ton* of free Core Data help on Stack Overflow as well as on Twitter, you should support him by checking out his [Core Data book](http://pragprog.com/book/mzcd2/core-data).
+
 ## Thank you!
 
 Bryan Irace ([Email](mailto:bryan@tumblr.com), [Twitter](http://twitter.com/irace))
