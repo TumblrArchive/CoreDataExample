@@ -1,8 +1,14 @@
 # Core Data Example
 
-This is a sample project whose purpose is to gather feedback on the best way to use Core Data in a multithreaded environment. The focal point is the `TMCoreDataController` class, which exposes a block-based API for updating managed object contexts both from the main queue as well as in the background.
+This is a sample project whose purpose is to gather feedback on the best way to use Core Data in a multithreaded environment. Here's a [blog post]() explaining the motivation behind this repository:
+
+> We’ve been using Core Data for persistence in [Tumblr for iOS](https://itunes.apple.com/us/app/tumblr/id305343404) for years now, but are always interested in re-evaluating our approach to make sure that we’re leveraging the SDK as effectively as possible.
+
+The focal point is the [TMCoreDataController](https://github.com/tumblr/CoreDataExample/blob/master/CoreDataExample/TMCoreDataController.h) class, which exposes a block-based API for updating managed object contexts both from the main queue as well as in the background.
 
 The application simply fetches, persists, and displays a little bit of data from the Tumblr API, in order to provide a real-world example of how `TMCoreDataController` is expected to be used.
+
+If you have any feedback, please create [issues](https://github.ewr01.tumblr.net/bryan/CoreDataExample/issues) or [pull requests](https://github.ewr01.tumblr.net/bryan/CoreDataExample/pulls). Thanks for taking a look!
 
 ## Approach
 
@@ -26,7 +32,7 @@ In this particular example, the “heavy lifting” of updating our database wit
 
 ## Running CoreDataExample
 
-To run the sample application, you need to add OAuth keys, tokens, and secrets to [TMAppDelegate](). If you don't already have one, you can create a Tumblr API application [here](https://www.tumblr.com/oauth/apps) and generate a token and secret using our [API console](https://api.tumblr.com/console).
+To run the sample application, you need to add OAuth keys, tokens, and secrets to [TMAppDelegate](https://github.com/tumblr/CoreDataExample/blob/master/CoreDataExample/TMAppDelegate.m#L24). If you don't already have one, you can create a Tumblr API application [here](https://www.tumblr.com/oauth/apps) and generate a token and secret using our [API console](https://api.tumblr.com/console).
 
 ## Questions
 
@@ -95,3 +101,6 @@ How can this be mitigated, other than just optimizing all of our fetches and sav
 * [“Doing a count instead of a fetch, fetching ids only, predicate performance, batch size, things like that can make a huge difference.”](https://twitter.com/mzarra/status/466316613227409408)
 
 ## Thank you!
+
+Bryan Irace ([Email](mailto:bryan@tumblr.com), [Twitter](http://twitter.com/irace))
+
