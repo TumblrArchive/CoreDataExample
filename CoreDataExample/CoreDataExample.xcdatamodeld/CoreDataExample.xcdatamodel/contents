@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Post" representedClassName="TMPost" syncable="YES">
+        <attribute name="blogName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Post" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
